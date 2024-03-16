@@ -13,7 +13,7 @@ Everything works, except:
 
 Fixing the fingerprint sensor is easy. You simply need to add the PID `27c6:650c` to libfprint. I have submitted the [patch](fingerprint/0001-goodixmoc-Add-PID-0x650C.patch) to upstream and it has been [merged](https://gitlab.freedesktop.org/libfprint/libfprint/-/merge_requests/470).
 
-For now, you need to build libfprint from the latest source, or install [libfprint-git](https://aur.archlinux.org/packages/libfprint-git) if you're on Arch. Once a new version of libfprint is released, it should work out of the box.
+For now, you need to build libfprint from the latest source. Once a new version of libfprint is released, it should work out of the box.
 
 ## Bass speakers
 
