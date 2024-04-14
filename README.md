@@ -19,6 +19,6 @@ For now, you need to build libfprint from the latest source. Once a new version 
 
 The bass speakers are a bit more tricky. Unlike previous models, 14IMH9 uses CS35L41 amplifiers, and the [existing patch](https://github.com/PJungkamp/yoga9-linux/) is not able to activate them.
 
-To enable the bass speakers and volume control, apply the [kernel patch](speakers/0001-ALSA-hda-realtek-Add-quirk-for-Lenovo-Yoga-9-14IMH9.patch). The patch has been [merged](https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git/commit/?id=9b714a59b719b1ba9382c092f0f7aa4bbe94eba1) by the upstream, and will probably land in kernel 6.9.
+To enable the bass speakers and volume control, apply the [kernel patch](speakers/0001-ALSA-hda-realtek-Add-quirk-for-Lenovo-Yoga-9-14IMH9.patch). The patch has been [merged](https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git/commit/?id=9b714a59b719b1ba9382c092f0f7aa4bbe94eba1) by the upstream, and will probably land in kernel 6.9 (**Update**: This has been backported to 6.8.6).
 
 While the kernel patch alone is able to enable the bass speakers, it uses generic firmware by default, and sound quality can be significantly improved by extracting the firmware from the Windows driver. Follow [this guide](https://gist.github.com/masselstine/8fe9634b4c31cef07b8dfab089e4eb38#sound) if you are interested. Take note that the guide is for a different laptop, ignore everything other than the firmware extraction steps.
