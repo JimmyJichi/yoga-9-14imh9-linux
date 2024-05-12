@@ -17,6 +17,6 @@ For now, you need to build libfprint from the latest source, or install [libfpri
 
 ## Bass speakers
 
-The kernel patch that enables the bass speakers has been backported to 6.8.6).
+The kernel patch that enables the bass speakers has been backported to 6.8.6.
 
 While the kernel patch alone is able to enable the bass speakers, it uses generic firmware by default, and sound quality can be significantly improved by extracting the firmware from the Windows driver. Follow [this guide](https://gist.github.com/masselstine/8fe9634b4c31cef07b8dfab089e4eb38#sound) if you are interested. Take note that the guide is for a different laptop, ignore everything other than the firmware extraction steps.
