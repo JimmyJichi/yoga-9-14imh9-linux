@@ -2,6 +2,8 @@
 
 I recently purchased a 2024 Lenovo Yoga 9i and installed Arch Linux (linux-zen 6.8.0). Here is how I got everything working.
 
+**Update: As of October 2024, everything should work out of the box with the latest kernel and libfprint. You may ignore the following information except (optionally) the part about audio firmware.**
+
 ## OOTB Experience
 
 Everything works, except:
